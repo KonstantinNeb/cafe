@@ -1,0 +1,26 @@
+.Cafe {
+  width: 500px;
+  background-color: bisque;
+  padding: 2em 3em;
+}
+
+.Cafe ul {
+  padding: 0;
+}
+
+.Cafe ul > li {
+  display: flex;
+  padding: 0.3em 0;
+}
+
+.Cafe ul > li > span {
+  flex: 1;
+}
+
+.Cafe__controls > span {
+  margin-left: 1em;
+}
+
+.Cafe__controls > button {
+  cursor: pointer;
+}

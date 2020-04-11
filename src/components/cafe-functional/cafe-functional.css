@@ -1,0 +1,30 @@
+.CafeFunctional {
+  width: 500px;
+  background-color: bisque;
+  padding: 2em 3em;
+}
+
+.CafeFunctional ul {
+  padding: 0;
+}
+
+.CafeFunctional ul > li {
+  display: flex;
+  padding: 0.3em 0;
+}
+
+.CafeFunctional ul > li > span {
+  flex: 1;
+}
+
+.CafeFunctional__controls > span {
+  margin-left: 1em;
+}
+
+.CafeFunctional__controls > button {
+  cursor: pointer;
+}
+
+.CafeFunctional__controls > button:first-child {
+  margin-right: 0.5em;
+}
