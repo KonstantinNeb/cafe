@@ -6,6 +6,7 @@ import CafeFunctional from "./components/cafe-functional";
 function App() {
   return (
     <div className="App">
+      <p>{new Date().toString()}</p>
       <Cafe
         name="React cafe"
         menu={[
