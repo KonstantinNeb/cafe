@@ -7,6 +7,14 @@ function App() {
   return (
     <div className="App">
       <p>{new Date().toLocaleString()}</p>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <p>
+        Изменения в ветке test
+      </p>
       <Cafe
         name="React cafe"
         menu={[
