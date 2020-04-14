@@ -7,6 +7,13 @@ function App() {
   return (
     <div className="App">
       <p>{new Date().toLocaleString()}</p>
+      <hr/>
+      <hr/>
+      <hr/>
+      <hr/>
+      <hr/>
+      <hr/>
+      <p>Changes in branch master</p>
       <Cafe
         name="React cafe"
         menu={[
